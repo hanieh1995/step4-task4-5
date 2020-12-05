@@ -1,0 +1,140 @@
+html,
+body { 
+    margin: 0;
+    height: 100%;
+    font-family: Segoe UI;
+}
+.updown{
+   border-radius: 50%;
+    height: 50px;
+    width: 15%;
+    margin-left: 28%;
+	margin-bottom:10px;
+    background-color: lightgray;
+}
+#down{
+	 margin-left: 12%;
+}
+.tdo {
+    border-radius: 10px;
+    width: 55%;
+    margin: 100px auto;
+    box-shadow: 10px 10px 50px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.tdo > p {
+    width: 85%;
+    margin: 40px auto;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#text {
+    margin: 0px 7%;
+    margin-top: 25px;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    width: 60%;
+    border: 2px solid lightgray;
+    box-shadow: 0px 0px 20px lightgray;
+    padding-left: 5px;
+    outline: none;
+}
+
+button {
+    width: 25%;
+    border: none;
+    background-color: #abc;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.filter {
+    border-radius: 50%;
+    height: 50px;
+    width: 15%;
+    margin-left: 13%;
+    background-color: lightgray;
+}
+
+#insert:hover {
+    box-shadow: 0 0 10px #abc;
+    font-weight: bold;
+}
+
+.filter:hover ,.updown:hover{
+    box-shadow: 0 0 20px gray;
+    font-weight: bold;
+}
+
+li {
+    width: 92%;
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-left: 1.5%;
+}
+
+.first {
+    margin-left: 12%;
+}
+
+.close {
+    margin-right: 10px;
+    padding-top: 3px;
+    float: right;
+    margin-right: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 12px;
+}
+
+.close:hover {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.checked {
+    margin-right: 10px;
+    float: right;
+    padding-right: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 12px;
+}
+
+.checked:hover {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.edit {
+    margin-right: 10px;
+    padding-top: 5px;
+    float: right;
+    padding-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.edit:hover {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.editinputstyle {
+    border: 2px solid lightgray;
+    width: 50%;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.selected-filter {
+    box-shadow: 0px 0px 20px;
+    font-weight: bold;
+}

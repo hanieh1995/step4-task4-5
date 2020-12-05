@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="tdo">
+        <p>To Do List </p>
+		<div> <button class="updown" onclick="Upload()">Up</button>
+		 <button id="down" class="updown" onclick="Download()">Down</button> </div>
+        <button class="filter selected-filter" id="f0" onclick="setFilter(0)">All</button>
+        <button class="filter" id="f1" onclick="setFilter(1)">Active</button>
+        <button class="filter" id="f2" onclick="setFilter(2)">Completed</button>
+        <input type="text" id="text" placeholder="what to do ,what not to do? :D" autocomplete="off">
+        <button id="insert">insert </button>
+        <ul id="list"></ul>
+    </div>
+
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controler.js"></script>
+	 
+
+</body>
+
+</html>
